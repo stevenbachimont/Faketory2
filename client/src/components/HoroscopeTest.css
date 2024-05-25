@@ -1,0 +1,43 @@
+.Texte-défilant-Horoscope {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+
+.zone-annonce {
+  height: 60px;
+  display: block;
+  margin: 30px auto;
+  padding: 0;
+  overflow: hidden;
+  top: 30px;
+  left: 0;
+  font-family: var(--font), sans-serif;
+  font-size: 2rem;
+  letter-spacing:5px;
+  color: #211c1c;
+}
+
+.annonce_content {
+  display: block;
+  padding: 10px 0px;
+  width: 800px;
+}
+
+.content1 {
+  white-space: nowrap;
+  flex-shrink: 0;
+  padding-right: 20px;
+  display: flex;
+  animation: scrollText 20s linear infinite;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}

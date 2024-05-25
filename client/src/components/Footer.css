@@ -1,0 +1,38 @@
+.footer {
+  background-color: white;
+  font-family: var(--font), sans-serif;
+  bottom: 0;
+  width: 100%;
+  margin-top: 5rem;
+  padding: 3rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact {
+  flex-direction: column;
+  gap: 0;
+  list-style: none;
+}
+
+.navigation {
+  flex-direction: column;
+  gap: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+img {
+  float: right;
+  margin-left: -5px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}

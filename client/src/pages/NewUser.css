@@ -1,0 +1,72 @@
+.NewUser {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--black);
+}
+
+h1 {
+  color: var(--blue);
+  font-family: var(--font), sans-serif;
+  font-size: 3rem;
+  margin-top: 80px;
+  padding: 0;
+}
+
+p {
+  color: var(--blue);
+  font-family: var(--font), sans-serif;
+  font-size: 1rem;
+  margin-top: 50px;
+  padding: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  color: var(--blue);
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: var(--blue);
+  color: var(--black);
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: var(--font), sans-serif;
+  transition: background-color 0.2s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: var(--black);
+  color: var(--blue);
+}
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+}
