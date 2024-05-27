@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/{{ org }}/faketory.git"
+    "url": "git+https://github.com/stevenbachimont/faketory2.git"
   },
   "workspaces": ["client", "server"],
   "scripts": {
