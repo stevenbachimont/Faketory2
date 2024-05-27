@@ -1,3 +1,4 @@
+
 {
   "name": "faketory-client",
   "type": "module",
@@ -5,7 +6,7 @@
     "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "react-scripts start src/index.js"
+    "start": "react-scripts start src/index.jsx"
   },
   "dependencies": {
     "body-parser": "^1.20.2",
