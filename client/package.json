@@ -1,17 +1,19 @@
 {
-  "name": "@harmonia/client",
+  "name": "faketory-client",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "react-scripts start src/index.js"
   },
   "dependencies": {
     "body-parser": "^1.20.2",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.3"
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
@@ -28,5 +30,17 @@
   "lint-staged": {
     "*.{html,scss,css}": "prettier --check",
     "*.{jsx,js}": "eslint --report-unused-disable-directives"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
